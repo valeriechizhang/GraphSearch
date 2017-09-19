@@ -1,0 +1,1 @@
+--energy 20000 --end-x=0 --end-y=6

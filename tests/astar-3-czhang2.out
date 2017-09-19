@@ -1,0 +1,119 @@
+Solution steps: ['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'N', 'N']
+Solution cost: 7898
+Number of states considered: 104
+
+Frontier:
+Pos=(5, 9) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'N', 'N', 'N', 'N', 'N', 'W'] Cost=9973
+Pos=(8, 2) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'S', 'S'] Cost=9606
+Pos=(9, 8) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'N', 'N', 'E', 'E', 'N'] Cost=9197
+Pos=(9, 0) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'S', 'S', 'S', 'W', 'S', 'W'] Cost=8963
+Pos=(7, 2) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'S', 'S', 'E', 'S', 'E', 'N'] Cost=8861
+Pos=(9, 9) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'N', 'N', 'N', 'N', 'E', 'E'] Cost=8809
+Pos=(4, 8) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'N', 'N', 'N', 'N', 'W', 'W'] Cost=8799
+Pos=(11, 6) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'E', 'N', 'E'] Cost=7966
+
+Closed List:
+Pos=(0, 0) Moves=[] Cost=0
+Pos=(0, 1) Moves=['N'] Cost=5777
+Pos=(0, 2) Moves=['N', 'N'] Cost=5849
+Pos=(1, 1) Moves=['N', 'E'] Cost=5899
+Pos=(1, 2) Moves=['N', 'E', 'N'] Cost=5945
+Pos=(1, 0) Moves=['N', 'E', 'S'] Cost=5906
+Pos=(2, 0) Moves=['N', 'E', 'S', 'E'] Cost=5945
+Pos=(2, 1) Moves=['N', 'E', 'E'] Cost=5983
+Pos=(1, 3) Moves=['N', 'E', 'N', 'N'] Cost=6090
+Pos=(0, 3) Moves=['N', 'E', 'N', 'N', 'W'] Cost=6107
+Pos=(1, 4) Moves=['N', 'E', 'N', 'N', 'N'] Cost=6415
+Pos=(1, 5) Moves=['N', 'E', 'N', 'N', 'N', 'N'] Cost=6429
+Pos=(2, 4) Moves=['N', 'E', 'N', 'N', 'N', 'E'] Cost=6418
+Pos=(2, 5) Moves=['N', 'E', 'N', 'N', 'N', 'N', 'E'] Cost=6442
+Pos=(0, 5) Moves=['N', 'E', 'N', 'N', 'N', 'N', 'W'] Cost=6461
+Pos=(0, 6) Moves=['N', 'E', 'N', 'N', 'N', 'N', 'W', 'N'] Cost=6462
+Pos=(0, 7) Moves=['N', 'E', 'N', 'N', 'N', 'N', 'W', 'N', 'N'] Cost=6464
+Pos=(2, 3) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'S'] Cost=6435
+Pos=(0, 8) Moves=['N', 'E', 'N', 'N', 'N', 'N', 'W', 'N', 'N', 'N'] Cost=6483
+Pos=(2, 6) Moves=['N', 'E', 'N', 'N', 'N', 'N', 'E', 'N'] Cost=6483
+Pos=(0, 4) Moves=['N', 'E', 'N', 'N', 'N', 'W'] Cost=6537
+Pos=(3, 5) Moves=['N', 'E', 'N', 'N', 'N', 'N', 'E', 'E'] Cost=6612
+Pos=(1, 8) Moves=['N', 'E', 'N', 'N', 'N', 'N', 'W', 'N', 'N', 'N', 'E'] Cost=6709
+Pos=(1, 9) Moves=['N', 'E', 'N', 'N', 'N', 'N', 'W', 'N', 'N', 'N', 'E', 'N'] Cost=6725
+Pos=(2, 2) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'S', 'S'] Cost=6725
+Pos=(3, 2) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'S', 'S', 'E'] Cost=6795
+Pos=(3, 4) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E'] Cost=6743
+Pos=(4, 4) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E'] Cost=6762
+Pos=(4, 3) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'S'] Cost=6825
+Pos=(3, 0) Moves=['N', 'E', 'S', 'E', 'E'] Cost=6787
+Pos=(3, 1) Moves=['N', 'E', 'S', 'E', 'E', 'N'] Cost=6803
+Pos=(4, 0) Moves=['N', 'E', 'S', 'E', 'E', 'E'] Cost=6832
+Pos=(4, 1) Moves=['N', 'E', 'S', 'E', 'E', 'N', 'E'] Cost=6833
+Pos=(3, 6) Moves=['N', 'E', 'N', 'N', 'N', 'N', 'E', 'E', 'N'] Cost=6809
+Pos=(5, 4) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E'] Cost=6827
+Pos=(6, 4) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E'] Cost=6844
+Pos=(6, 5) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'N'] Cost=6852
+Pos=(6, 6) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'N', 'N'] Cost=6864
+Pos=(3, 3) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'S'] Cost=6808
+Pos=(5, 3) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'S'] Cost=6855
+Pos=(3, 7) Moves=['N', 'E', 'N', 'N', 'N', 'N', 'E', 'E', 'N', 'N'] Cost=6881
+Pos=(5, 2) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'S', 'S'] Cost=6865
+Pos=(6, 2) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'S', 'S', 'E'] Cost=6883
+Pos=(5, 1) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'S', 'S', 'S'] Cost=6875
+Pos=(4, 2) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'S', 'S', 'W'] Cost=6883
+Pos=(6, 1) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'S', 'S', 'E', 'S'] Cost=6889
+Pos=(5, 5) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'N'] Cost=6897
+Pos=(6, 0) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'S', 'S', 'E', 'S', 'S'] Cost=6912
+Pos=(2, 7) Moves=['N', 'E', 'N', 'N', 'N', 'N', 'E', 'N', 'N'] Cost=6925
+Pos=(6, 7) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'N', 'N', 'N'] Cost=6914
+Pos=(7, 0) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'S', 'S', 'E', 'S', 'S', 'E'] Cost=6929
+Pos=(6, 8) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'N', 'N', 'N', 'N'] Cost=6944
+Pos=(5, 7) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'N', 'N', 'N', 'W'] Cost=6936
+Pos=(6, 9) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'N', 'N', 'N', 'N', 'N'] Cost=6947
+Pos=(5, 8) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'N', 'N', 'N', 'N', 'W'] Cost=6949
+Pos=(4, 7) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'N', 'N', 'N', 'W', 'W'] Cost=6953
+Pos=(6, 3) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'S'] Cost=6945
+Pos=(7, 3) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'S', 'E'] Cost=6995
+Pos=(7, 4) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E'] Cost=6966
+Pos=(7, 5) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'N'] Cost=6968
+Pos=(8, 4) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'E'] Cost=6969
+Pos=(7, 6) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'N'] Cost=6984
+Pos=(8, 5) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'E'] Cost=6998
+Pos=(8, 3) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'S'] Cost=7004
+Pos=(7, 7) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'N', 'N'] Cost=6994
+Pos=(8, 7) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'N', 'N', 'E'] Cost=7030
+Pos=(4, 5) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'N'] Cost=6988
+Pos=(4, 6) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'N', 'N'] Cost=6998
+Pos=(5, 6) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'N', 'N', 'E'] Cost=7003
+Pos=(8, 8) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'N', 'N', 'E', 'N'] Cost=7056
+Pos=(9, 7) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'N', 'N', 'E', 'E'] Cost=7080
+Pos=(10, 7) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'N', 'N', 'E', 'E', 'E'] Cost=7106
+Pos=(9, 4) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E'] Cost=7139
+Pos=(9, 5) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'N'] Cost=7164
+Pos=(9, 3) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'S'] Cost=7162
+Pos=(10, 3) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'S', 'E'] Cost=7190
+Pos=(9, 2) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'S', 'S'] Cost=7196
+Pos=(7, 1) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'S', 'S', 'E', 'S', 'E'] Cost=7179
+Pos=(10, 5) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'E'] Cost=7174
+Pos=(10, 6) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'E', 'N'] Cost=7181
+Pos=(11, 5) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'E', 'E'] Cost=7182
+Pos=(8, 1) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'S', 'S', 'E', 'S', 'E', 'E'] Cost=7211
+Pos=(9, 6) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'N'] Cost=7181
+Pos=(9, 1) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'S', 'S', 'S'] Cost=7214
+Pos=(10, 2) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'S', 'E', 'S'] Cost=7222
+Pos=(10, 4) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E'] Cost=7240
+Pos=(11, 4) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E'] Cost=7268
+Pos=(8, 6) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'N', 'W'] Cost=7303
+Pos=(11, 7) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E'] Cost=7431
+Pos=(8, 0) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'S', 'S', 'E', 'S', 'S', 'E', 'E'] Cost=7414
+Pos=(11, 8) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'N'] Cost=7456
+Pos=(1, 6) Moves=['N', 'E', 'N', 'N', 'N', 'N', 'N'] Cost=7454
+Pos=(1, 7) Moves=['N', 'E', 'N', 'N', 'N', 'N', 'N', 'N'] Cost=7483
+Pos=(7, 8) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'N', 'N', 'N'] Cost=7479
+Pos=(7, 9) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'N', 'N', 'N', 'N'] Cost=7489
+Pos=(8, 9) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'N', 'N', 'N', 'N', 'E'] Cost=7512
+Pos=(5, 0) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'S', 'S', 'S', 'S'] Cost=7660
+Pos=(11, 3) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'S'] Cost=7669
+Pos=(11, 2) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'S', 'S'] Cost=7692
+Pos=(11, 1) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'S', 'S', 'S'] Cost=7702
+Pos=(11, 0) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'S', 'S', 'S', 'S'] Cost=7744
+Pos=(10, 1) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'S', 'S', 'S', 'W'] Cost=7719
+Pos=(10, 0) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'S', 'S', 'S', 'W', 'S'] Cost=7737
+Pos=(11, 9) Moves=['N', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'N', 'N', 'E', 'E', 'E', 'E', 'N', 'N'] Cost=7898

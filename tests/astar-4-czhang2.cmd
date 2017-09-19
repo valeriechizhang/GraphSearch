@@ -1,0 +1,1 @@
+--energy 50 --start-x=3 --start-y=3 --end-x=1 --end-y=1

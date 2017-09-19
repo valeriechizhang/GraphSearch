@@ -1,0 +1,11 @@
+Solution steps: ['N']
+Solution cost: 442
+Number of states considered: 1
+
+Frontier:
+Pos=(1, 0) Moves=['E'] Cost=2
+Pos=(0, 1) Moves=['N'] Cost=442
+Pos=(0, 1) Moves=[] Cost=0
+
+Closed List:
+Pos=(0, 0) Moves=[] Cost=0

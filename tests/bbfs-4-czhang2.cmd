@@ -1,0 +1,1 @@
+--energy 500 --end-x=0  --end-y=1
